@@ -3,7 +3,7 @@
 Plugin Name: Custom List Table Example
 Plugin URI: https://github.com/jigarsenghani/wordpress-custom-list-table-example.git
 Description: A highly documented plugin that demonstrates how to create custom List Tables using official WordPress APIs.
-Version: 1.0.0
+Version: 1.0.120
 Author: Bytesteam
 Author URI: http://www.bytestechnolab.com
 License: GPL2
@@ -18,13 +18,9 @@ License: GPL2
  * ========================================================================== */
 
 
-
 if(!class_exists('WP_List_Table')){
     require_once( ABSPATH . 'wp-admin/includes/class-wp-list-table.php' );
 }
-
-
-
 
 /************************** CREATE A PACKAGE CLASS *****************************
  *******************************************************************************
