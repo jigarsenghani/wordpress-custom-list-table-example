@@ -3,25 +3,10 @@
 Plugin Name: Custom List Table Example
 Plugin URI: https://github.com/jigarsenghani/wordpress-custom-list-table-example.git
 Description: A highly documented plugin that demonstrates how to create custom List Tables using official WordPress APIs.
-Version: 1.4.1
-Author: Matt van Andel
-Author URI: http://www.mattvanandel.com
+Version: 1.0.0
+Author: Bytesteam
+Author URI: http://www.bytestechnolab.com
 License: GPL2
-*/
-/*  Copyright 2015  Matthew Van Andel  (email : matt@mattvanandel.com)
-
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License, version 2, as
-    published by the Free Software Foundation.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 
@@ -34,26 +19,6 @@ License: GPL2
 
 
 
-/*************************** LOAD THE BASE CLASS *******************************
- *******************************************************************************
- * The WP_List_Table class isn't automatically available to plugins, so we need
- * to check if it's available and load it if necessary. In this tutorial, we are
- * going to use the WP_List_Table class directly from WordPress core.
- *
- * IMPORTANT:
- * Please note that the WP_List_Table class technically isn't an official API,
- * and it could change at some point in the distant future. Should that happen,
- * I will update this plugin with the most current techniques for your reference
- * immediately.
- *
- * If you are really worried about future compatibility, you can make a copy of
- * the WP_List_Table class (file path is shown just below) to use and distribute
- * with your plugins. If you do that, just remember to change the name of the
- * class to avoid conflicts with core.
- *
- * Since I will be keeping this tutorial up-to-date for the foreseeable future,
- * I am going to work with the copy of the class provided in WordPress core.
- */
 if(!class_exists('WP_List_Table')){
     require_once( ABSPATH . 'wp-admin/includes/class-wp-list-table.php' );
 }
