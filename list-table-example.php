@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Custom List Table Example
-Plugin URI: http://www.mattvanandel.com/
+Plugin URI: https://github.com/jigarsenghani/wordpress-custom-list-table-example.git
 Description: A highly documented plugin that demonstrates how to create custom List Tables using official WordPress APIs.
 Version: 1.4.1
 Author: Matt van Andel
